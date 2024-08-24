@@ -7,7 +7,7 @@
    inside that file having `.. include:: ../README.md` 
    just copy file and add to toctree, to preserve formatting.
 
-.. include:: ../README.md
+.. include:: README.md
 
 Notes about project.
 
