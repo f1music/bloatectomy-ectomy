@@ -1,0 +1,57 @@
+bloatectomy_ectomy.utils.aux_funcs
+==================================
+
+.. py:module:: bloatectomy_ectomy.utils.aux_funcs
+
+.. autoapi-nested-parse::
+
+   Utility and auxiliary functions for proving we can build a library and not just write a script.
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   bloatectomy_ectomy.utils.aux_funcs.execute_command
+   bloatectomy_ectomy.utils.aux_funcs.parse_out_response
+   bloatectomy_ectomy.utils.aux_funcs.print_praise
+
+
+Module Contents
+---------------
+
+.. py:function:: execute_command(command: str) -> subprocess.CompletedProcess
+
+   Execute user provided command.
+
+   :param command: Command to be executed.
+   :type command: str
+
+   :returns: Executed command details.
+   :rtype: subprocess.CompletedProcess
+
+
+.. py:function:: parse_out_response(uninstall_command_return: subprocess.CompletedProcess) -> str
+
+   Parse out response from executed command.
+
+   :param uninstall_command_return: Executed command details.
+   :type uninstall_command_return: subprocess.CompletedProcess
+
+   :returns: Response from executing command.
+   :rtype: str
+
+
+.. py:function:: print_praise(hurry_up_and_do_it: subprocess.CompletedProcess) -> str
+
+   Parse out response from executed command.
+
+   :param hurry_up_and_do_it: Details returned while uninstalling bloatectomy.
+   :type hurry_up_and_do_it: subprocess.CompletedProcess
+
+   :returns: Response from executing command.
+   :rtype: str
+
+

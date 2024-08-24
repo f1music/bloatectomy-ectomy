@@ -1,0 +1,43 @@
+bloatectomy_ectomy.cli
+======================
+
+.. py:module:: bloatectomy_ectomy.cli
+
+.. autoapi-nested-parse::
+
+   Main bloatectomy_ectomy CLI script.
+
+
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   /autoapi/bloatectomy_ectomy/cli/main_purpose/index
+   /autoapi/bloatectomy_ectomy/cli/run_command/index
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   bloatectomy_ectomy.cli.run_command
+   bloatectomy_ectomy.cli.remove_bloatectomy
+   bloatectomy_ectomy.cli.main
+
+
+Package Contents
+----------------
+
+.. py:function:: run_command(ctx: typer.Context, command: typing_extensions.Annotated[str, typer.Argument(..., help=f"{colored('Required', required_color)} Command to be executed.", rich_help_panel=f"{colored('Required', required_color)} Inputs")], run_not_echo: typing_extensions.Annotated[bool, typer.Option('--no-echo/--echo', '--run/--no-run', '-r/-R', help=f"{colored('Optional', optional_color)} Option to run or echo the entered command.", rich_help_panel=f"{colored('Optional', optional_color)} Inputs")] = True)
+
+.. py:function:: remove_bloatectomy(ctx: typer.Context, when: typing_extensions.Annotated[str, typer.Option('--when', '-w', help=f"{colored('Optional', optional_color)} Tell us when to uninstall bloatectomy.", rich_help_panel=f"{colored('Optional', optional_color)} Inputs")] = 'now')
+
+.. py:function:: main()
+
+   Main typer CLI function.
+
+

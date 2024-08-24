@@ -1,0 +1,21 @@
+bloatectomy_ectomy
+==================
+
+.. py:module:: bloatectomy_ectomy
+
+.. autoapi-nested-parse::
+
+   Source code for Python library bloatectomy_ectomy.
+
+
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 1
+
+   /autoapi/bloatectomy_ectomy/cli/index
+   /autoapi/bloatectomy_ectomy/utils/index
+
+

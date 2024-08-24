@@ -1,0 +1,20 @@
+bloatectomy_ectomy.utils
+========================
+
+.. py:module:: bloatectomy_ectomy.utils
+
+.. autoapi-nested-parse::
+
+   Utility and auxiliary functions bloatectomy_ectomy Python library.
+
+
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   /autoapi/bloatectomy_ectomy/utils/aux_funcs/index
+
+

@@ -1,0 +1,50 @@
+bloatectomy_ectomy.cli.main_purpose
+===================================
+
+.. py:module:: bloatectomy_ectomy.cli.main_purpose
+
+.. autoapi-nested-parse::
+
+   Main bloatectomy_ectomy CLI driver.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   bloatectomy_ectomy.cli.main_purpose.required_color
+   bloatectomy_ectomy.cli.main_purpose.optional_color
+   bloatectomy_ectomy.cli.main_purpose.Arg
+   bloatectomy_ectomy.cli.main_purpose.Opt
+   bloatectomy_ectomy.cli.main_purpose.app
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   bloatectomy_ectomy.cli.main_purpose.remove_bloatectomy
+
+
+Module Contents
+---------------
+
+.. py:data:: required_color
+   :value: 'light_red'
+
+
+.. py:data:: optional_color
+   :value: 'light_green'
+
+
+.. py:data:: Arg
+
+.. py:data:: Opt
+
+.. py:data:: app
+
+.. py:function:: remove_bloatectomy(ctx: typer.Context, when: typing_extensions.Annotated[str, typer.Option('--when', '-w', help=f"{colored('Optional', optional_color)} Tell us when to uninstall bloatectomy.", rich_help_panel=f"{colored('Optional', optional_color)} Inputs")] = 'now')
+
