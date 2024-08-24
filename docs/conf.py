@@ -16,8 +16,8 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath('../../bloatectomy-ectomy/bloatectomy_ectomy'))
-# sys.path.insert(0, os.path.abspath('../bloatectomy_ectomy'))
+# sys.path.insert(0, os.path.abspath('../../bloatectomy-ectomy/bloatectomy_ectomy'))
+sys.path.insert(0, os.path.abspath('../bloatectomy_ectomy'))
 
 
 # -- Project information -----------------------------------------------------
@@ -81,8 +81,8 @@ autoapi_options = [
     "show-module-summary",
 ]
 
-autoapi_dirs = ["../../bloatectomy-ectomy/bloatectomy_ectomy"]
-# autoapi_dirs = ["../bloatectomy_ectomy"]
+# autoapi_dirs = ["../../bloatectomy-ectomy/bloatectomy_ectomy"]
+autoapi_dirs = ["../bloatectomy_ectomy"]
 
 # Used to avoid error for too many levels on relative imports
 # NOTE: to accomplish this, its better to use autoapi_ignore than exclude_patterns
