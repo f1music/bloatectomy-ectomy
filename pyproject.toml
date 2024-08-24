@@ -1,0 +1,35 @@
+[project]
+name = "Bloatectomy-ectomy"
+version = "0.1.0"
+description = "A python package for removing the bloated package bloatectomy."
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+    {name = "Rummer Sankin", email = "RummerKSankin@gmail.com"},
+]
+license = {file = "LICENSE"}
+keywords = ["bloatectomy", "useful", "cleaning", "cleanse", "removal"]
+
+dependencies = [
+  "typer-cli", # 0.12.0
+  "wasabi",
+  "termcolor",
+  # "bloatectomy", # jk this is never needed lol
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+namespaces = false
+
+[project.scripts]
+bloatectomy_ectomy = "bloatectomy_ectomy.cli:main"
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Github" = "https://github.com/f1music/bloatectomy-ectomy"
+"Documentation" = "https://f1music.github.io/bloatectomy-ectomy/"
+"Source of Problem" = "https://github.com/1fmusic/bloatectomy/tree/master"
+"Source" = "https://github.com/f1music/bloatectomy-ectomy"
